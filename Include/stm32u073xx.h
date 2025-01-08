@@ -605,7 +605,7 @@ typedef struct
 {
   __IO uint32_t CFGR1;          /*!< SYSCFG Control register,                      Address offset: 0x00 */
        uint32_t RESERVED0[5];   /*!< Reserved                                               0x04 --0x14 */
-       uint32_t CFGR2;          /*!< SYSCFG Class B register,                      Address offset: 0x18 */
+  __IO uint32_t CFGR2;          /*!< SYSCFG Class B register,                      Address offset: 0x18 */
   __IO uint32_t SCSR;           /*!< SYSCFG Backup Sram Erase Register,            Address offset: 0x1C */
   __IO uint32_t SKR;            /*!< SYSCFG Backup Sram Key Register,              Address offset: 0x20 */
   __IO uint32_t TSCCR;          /*!< SYSCFG TSC Comp Register,                     Address offset: 0x24 */
