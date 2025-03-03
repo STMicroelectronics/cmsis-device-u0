@@ -3339,7 +3339,7 @@ typedef struct
 #define FLASH_SR_FASTERR_Msk                (0x1UL << FLASH_SR_FASTERR_Pos)         /*!< 0x00000200 */
 #define FLASH_SR_FASTERR                    FLASH_SR_FASTERR_Msk
 #define FLASH_SR_HDPOPTWERR_Pos             (11U)
-#define FLASH_SR_HDPOPTWERRR_Msk            (0x1UL << FLASH_SR_HDPOPTWERR_Pos)      /*!< 0x00000800 */
+#define FLASH_SR_HDPOPTWERR_Msk             (0x1UL << FLASH_SR_HDPOPTWERR_Pos)      /*!< 0x00000800 */
 #define FLASH_SR_HDPOPTWERR                 FLASH_SR_HDPOPTWERR_Msk
 #define FLASH_SR_OEMOPTWERR_Pos             (12U)
 #define FLASH_SR_OEMOPTWERR_Msk             (0x1UL << FLASH_SR_OEMOPTWERR_Pos)      /*!< 0x00001000 */
