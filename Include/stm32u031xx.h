@@ -3139,39 +3139,32 @@ typedef struct
 #define FLASH_OPTR_RDP_Pos                  (0U)
 #define FLASH_OPTR_RDP_Msk                  (0xFFUL << FLASH_OPTR_RDP_Pos)            /*!< 0x000000FF */
 #define FLASH_OPTR_RDP                      FLASH_OPTR_RDP_Msk
-#define FLASH_OPTR_BOR_EN_Pos               (8U)
-#define FLASH_OPTR_BOR_EN_Msk               (0x1UL << FLASH_OPTR_BOR_EN_Pos)           /*!< 0x00000100 */
-#define FLASH_OPTR_BOR_EN                   FLASH_OPTR_BOR_EN_Msk
-#define FLASH_OPTR_BORR_LEV_Pos             (9U)
-#define FLASH_OPTR_BORR_LEV_Msk             (0x3UL << FLASH_OPTR_BORR_LEV_Pos)         /*!< 0x00000600 */
-#define FLASH_OPTR_BORR_LEV                 FLASH_OPTR_BORR_LEV_Msk
-#define FLASH_OPTR_BORR_LEV_0               (0x1UL << FLASH_OPTR_BORR_LEV_Pos)         /*!< 0x00000200 */
-#define FLASH_OPTR_BORR_LEV_1               (0x2UL << FLASH_OPTR_BORR_LEV_Pos)         /*!< 0x00000400 */
-#define FLASH_OPTR_BORF_LEV_Pos             (11U)
-#define FLASH_OPTR_BORF_LEV_Msk             (0x3UL << FLASH_OPTR_BORF_LEV_Pos)         /*!< 0x00001800 */
-#define FLASH_OPTR_BORF_LEV                 FLASH_OPTR_BORF_LEV_Msk
-#define FLASH_OPTR_BORF_LEV_0               (0x1UL << FLASH_OPTR_BORF_LEV_Pos)         /*!< 0x00000800 */
-#define FLASH_OPTR_BORF_LEV_1               (0x2UL << FLASH_OPTR_BORF_LEV_Pos)         /*!< 0x00001000 */
+#define FLASH_OPTR_BOR_LEV_Pos              (8U)
+#define FLASH_OPTR_BOR_LEV_Msk              (0x7UL << FLASH_OPTR_BOR_LEV_Pos)        /*!< 0x00000700 */
+#define FLASH_OPTR_BOR_LEV                  FLASH_OPTR_BOR_LEV_Msk
+#define FLASH_OPTR_BOR_LEV_0                (0x1UL << FLASH_OPTR_BOR_LEV_Pos)        /*!< 0x00000100 */
+#define FLASH_OPTR_BOR_LEV_1                (0x2UL << FLASH_OPTR_BOR_LEV_Pos)        /*!< 0x00000200 */
+#define FLASH_OPTR_BOR_LEV_2                (0x4UL << FLASH_OPTR_BOR_LEV_Pos)        /*!< 0x00000400 */
 #define FLASH_OPTR_nRST_STOP_Pos            (13U)
-#define FLASH_OPTR_nRST_STOP_Msk            (0x1UL << FLASH_OPTR_nRST_STOP_Pos)        /*!< 0x00002000 */
+#define FLASH_OPTR_nRST_STOP_Msk            (0x1UL << FLASH_OPTR_nRST_STOP_Pos)       /*!< 0x00002000 */
 #define FLASH_OPTR_nRST_STOP                FLASH_OPTR_nRST_STOP_Msk
 #define FLASH_OPTR_nRST_STDBY_Pos           (14U)
-#define FLASH_OPTR_nRST_STDBY_Msk           (0x1UL << FLASH_OPTR_nRST_STDBY_Pos)       /*!< 0x00004000 */
+#define FLASH_OPTR_nRST_STDBY_Msk           (0x1UL << FLASH_OPTR_nRST_STDBY_Pos)      /*!< 0x00004000 */
 #define FLASH_OPTR_nRST_STDBY               FLASH_OPTR_nRST_STDBY_Msk
 #define FLASH_OPTR_nRST_SHDW_Pos            (15U)
-#define FLASH_OPTR_nRST_SHDW_Msk            (0x1UL << FLASH_OPTR_nRST_SHDW_Pos)        /*!< 0x00008000 */
+#define FLASH_OPTR_nRST_SHDW_Msk            (0x1UL << FLASH_OPTR_nRST_SHDW_Pos)       /*!< 0x00008000 */
 #define FLASH_OPTR_nRST_SHDW                FLASH_OPTR_nRST_SHDW_Msk
 #define FLASH_OPTR_IWDG_SW_Pos              (16U)
-#define FLASH_OPTR_IWDG_SW_Msk              (0x1UL << FLASH_OPTR_IWDG_SW_Pos)          /*!< 0x00010000 */
+#define FLASH_OPTR_IWDG_SW_Msk              (0x1UL << FLASH_OPTR_IWDG_SW_Pos)         /*!< 0x00010000 */
 #define FLASH_OPTR_IWDG_SW                  FLASH_OPTR_IWDG_SW_Msk
 #define FLASH_OPTR_IWDG_STOP_Pos            (17U)
-#define FLASH_OPTR_IWDG_STOP_Msk            (0x1UL << FLASH_OPTR_IWDG_STOP_Pos)        /*!< 0x00020000 */
+#define FLASH_OPTR_IWDG_STOP_Msk            (0x1UL << FLASH_OPTR_IWDG_STOP_Pos)       /*!< 0x00020000 */
 #define FLASH_OPTR_IWDG_STOP                FLASH_OPTR_IWDG_STOP_Msk
 #define FLASH_OPTR_IWDG_STDBY_Pos           (18U)
-#define FLASH_OPTR_IWDG_STDBY_Msk           (0x1UL << FLASH_OPTR_IWDG_STDBY_Pos)       /*!< 0x00040000 */
+#define FLASH_OPTR_IWDG_STDBY_Msk           (0x1UL << FLASH_OPTR_IWDG_STDBY_Pos)      /*!< 0x00040000 */
 #define FLASH_OPTR_IWDG_STDBY               FLASH_OPTR_IWDG_STDBY_Msk
 #define FLASH_OPTR_WWDG_SW_Pos              (19U)
-#define FLASH_OPTR_WWDG_SW_Msk              (0x1UL << FLASH_OPTR_WWDG_SW_Pos)          /*!< 0x00080000 */
+#define FLASH_OPTR_WWDG_SW_Msk              (0x1UL << FLASH_OPTR_WWDG_SW_Pos)         /*!< 0x00080000 */
 #define FLASH_OPTR_WWDG_SW                  FLASH_OPTR_WWDG_SW_Msk
 #define FLASH_OPTR_BDRST_Pos                (21U)
 #define FLASH_OPTR_BDRST_Msk                (0x1UL << FLASH_OPTR_BDRST_Pos)            /*!< 0x00200000 */
