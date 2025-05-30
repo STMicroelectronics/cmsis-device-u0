@@ -7369,9 +7369,9 @@ typedef struct
 #define TAMP_CR3_ITAMP4POM                 TAMP_CR3_ITAMP4POM_Msk
 #define TAMP_CR3_ITAMP5POM_Pos             (4U)
 #define TAMP_CR3_ITAMP5POM_Msk             (0x1UL << TAMP_CR3_ITAMP5POM_Pos)      /*!< 0x00000010 */
-#define TAMP_CR3_ITAMP5POM                 TAMP_CR3_ITAMP5NOER_Msk
+#define TAMP_CR3_ITAMP5POM                 TAMP_CR3_ITAMP5POM_Msk
 #define TAMP_CR3_ITAMP6POM_Pos             (5U)
-#define TAMP_CR3_ITAMP6POM_Msk             (0x1UL << TAMP_CR3_ITAMP6tPOM_Pos)      /*!< 0x00000020 */
+#define TAMP_CR3_ITAMP6POM_Msk             (0x1UL << TAMP_CR3_ITAMP6POM_Pos)      /*!< 0x00000020 */
 #define TAMP_CR3_ITAMP6POM                 TAMP_CR3_ITAMP6POM_Msk
 
 /********************  Bits definition for TAMP_FLTCR register  ***************/
